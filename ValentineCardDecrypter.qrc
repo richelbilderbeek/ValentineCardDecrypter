@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/valentinecarddecrypter/files">
-        <file>ToolValentineCardDecrypterWelcome.png</file>
+        <file>ValentineCardDecrypterWelcome.png</file>
     </qresource>
 </RCC>

@@ -33,7 +33,7 @@ QPushButton { font: 48px &quot;Courier New&quot;, courier, monospace }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolValentineCardDecrypter.qrc">:/valentinecarddecrypter/files/ToolValentineCardDecrypterWelcome.png</pixmap>
+      <pixmap resource="ValentineCardDecrypter.qrc">:/valentinecarddecrypter/files/ValentineCardDecrypterWelcome.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -77,7 +77,7 @@ QPushButton { font: 48px &quot;Courier New&quot;, courier, monospace }</string>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="ToolValentineCardDecrypter.qrc"/>
+  <include location="ValentineCardDecrypter.qrc"/>
  </resources>
  <connections/>
 </ui>

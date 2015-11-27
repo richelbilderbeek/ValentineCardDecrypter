@@ -11,7 +11,6 @@
 #include <QFile>
 
 #include "fileio.h"
-#include "richelbilderbeekprogram.h"
 #include "valentinecarddecryptermaindialog.h"
 #include "valentinecardsymbols.h"
 #include "valentinecardsymbol.h"
@@ -80,7 +79,7 @@ ribi::About ribi::ValentineCardDecrypterMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "ValentineCardDecrypter",
     "tool to decrypt a valentine card",
-    "the 18th of February 2014",
+    "November 27th of 2015",
     "2014",
     "http://www.richelbilderbeek.nl/ToolValentineCardDecrypter.htm",
     GetVersion(),
@@ -108,25 +107,17 @@ ribi::Help ribi::ValentineCardDecrypterMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::ValentineCardDecrypterMenuDialog::GetProgram() const noexcept
-{
-  boost::shared_ptr<const ribi::Program> p {
-    new ribi::ProgramValentineCardDecrypter
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::ValentineCardDecrypterMenuDialog::GetVersion() const noexcept
 {
-  return "2.0";
+  return "3.0";
 }
 
 std::vector<std::string> ribi::ValentineCardDecrypterMenuDialog::GetVersionHistory() const noexcept
 {
   return {
     "2014-02-18: version 1.0: initial command-line version, displaying the alphabet",
-    "2014-02-25: version 2.0: added functionality to command-line version, added desktop version"
+    "2014-02-25: version 2.0: added functionality to command-line version, added desktop version",
+    "2015-11-27: version 3.0: moved to own GitHub",
   };
 }
 
