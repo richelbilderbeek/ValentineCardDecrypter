@@ -2,7 +2,7 @@
 #define QTVALENTINECARDDECRYPTERMAINDIALOG_H
 
 #pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Weffc++"
+
 #include "qthideandshowdialog.h"
 #include <QImage>
 #pragma GCC diagnostic pop

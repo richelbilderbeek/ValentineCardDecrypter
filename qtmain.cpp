@@ -1,5 +1,5 @@
 #pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Weffc++"
+
 #pragma GCC diagnostic ignored "-Wunused-local-typedefs"
 #include <QApplication>
 #include "qtvalentinecarddecryptermenudialog.h"
