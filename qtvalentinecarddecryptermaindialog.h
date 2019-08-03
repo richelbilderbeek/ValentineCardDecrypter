@@ -1,11 +1,11 @@
 #ifndef QTVALENTINECARDDECRYPTERMAINDIALOG_H
 #define QTVALENTINECARDDECRYPTERMAINDIALOG_H
 
-#pragma GCC diagnostic push
+
 
 #include "qthideandshowdialog.h"
 #include <QImage>
-#pragma GCC diagnostic pop
+
 
 namespace Ui {
   class QtValentineCardDecrypterMainDialog;

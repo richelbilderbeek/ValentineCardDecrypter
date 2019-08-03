@@ -3,13 +3,13 @@
 
 #include <vector>
 
-#pragma GCC diagnostic push
+
 
 
 #include "valentinecardsymbol.h"
 
 #include <boost/bimap.hpp>
-#pragma GCC diagnostic pop
+
 
 namespace ribi {
 

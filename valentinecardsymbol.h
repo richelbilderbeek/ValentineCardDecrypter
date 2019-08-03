@@ -1,13 +1,13 @@
 #ifndef VALENTINECARDSYMBOL_H
 #define VALENTINECARDSYMBOL_H
 
-#pragma GCC diagnostic push
+
 
 
 #include <boost/shared_ptr.hpp>
 
 #include <QImage>
-#pragma GCC diagnostic pop
+
 
 ///A symbol on the valentine card
 /*

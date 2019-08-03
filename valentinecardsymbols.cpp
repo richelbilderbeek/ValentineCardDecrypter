@@ -1,13 +1,13 @@
 #include "valentinecardsymbols.h"
 
-#pragma GCC diagnostic push
+
 
 
 #include <cassert>
 
 #include "trace.h"
 #include "valentinecardsymbol.h"
-#pragma GCC diagnostic pop
+
 
 const std::vector<boost::shared_ptr<ribi::ValentineCardSymbol>> ribi::ValentineCardSymbols::CreateAll() const noexcept
 {

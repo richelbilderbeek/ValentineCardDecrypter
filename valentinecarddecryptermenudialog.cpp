@@ -3,7 +3,7 @@
 #include <cassert>
 #include <iostream>
 
-#pragma GCC diagnostic push
+
 
 
 #include <boost/math/constants/constants.hpp>
@@ -18,7 +18,7 @@
 #include "textcanvas.h"
 
 #include "trace.h"
-#pragma GCC diagnostic pop
+
 
 int ribi::ValentineCardDecrypterMenuDialog::ExecuteSpecific(const std::vector<std::string>& argv) noexcept
 {

@@ -3,13 +3,13 @@
 
 #include <vector>
 
-#pragma GCC diagnostic push
+
 
 
 #include <boost/shared_ptr.hpp>
 
 #include <QImage>
-#pragma GCC diagnostic pop
+
 
 struct QImage;
 

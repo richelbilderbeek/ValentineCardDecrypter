@@ -1,4 +1,4 @@
-#pragma GCC diagnostic push
+
 
 #include "qtvalentinecarddecryptermenudialog.h"
 
@@ -8,7 +8,7 @@
 #include "testtimer.h"
 #include "ui_qtvalentinecarddecryptermenudialog.h"
 #include "trace.h"
-#pragma GCC diagnostic pop
+
 
 ribi::QtValentineCardDecrypterMenuDialog::QtValentineCardDecrypterMenuDialog(QWidget *parent) :
     QtHideAndShowDialog(parent),

@@ -2,7 +2,7 @@
 
 #include <cassert>
 
-#pragma GCC diagnostic push
+
 
 
 #include <boost/lexical_cast.hpp>
@@ -13,7 +13,7 @@
 #include "textcanvas.h"
 #include "trace.h"
 #include "testtimer.h"
-#pragma GCC diagnostic pop
+
 
 ribi::ValentineCardSymbol::ValentineCardSymbol(
   const std::array<bool,4> lines,

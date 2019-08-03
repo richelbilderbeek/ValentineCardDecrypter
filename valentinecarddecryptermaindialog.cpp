@@ -1,6 +1,6 @@
 #include "valentinecarddecryptermaindialog.h"
 
-#pragma GCC diagnostic push
+
 
 
 #include <cassert>
@@ -13,7 +13,7 @@
 #include "testtimer.h"
 #include "valentinecardsymbol.h"
 #include "valentinecardsymbols.h"
-#pragma GCC diagnostic pop
+
 
 ribi::ValentineCardDecrypterMainDialog::ValentineCardDecrypterMainDialog()
 {
