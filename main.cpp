@@ -1,6 +1,6 @@
 #pragma GCC diagnostic push
 
-#pragma GCC diagnostic ignored "-Wunused-local-typedefs"
+
 
 #include "valentinecarddecryptermenudialog.h"
 #pragma GCC diagnostic pop

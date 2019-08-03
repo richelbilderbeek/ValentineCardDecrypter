@@ -5,7 +5,7 @@
 
 #pragma GCC diagnostic push
 
-#pragma GCC diagnostic ignored "-Wunused-local-typedefs"
+
 #include <boost/math/constants/constants.hpp>
 
 #include <QFile>
